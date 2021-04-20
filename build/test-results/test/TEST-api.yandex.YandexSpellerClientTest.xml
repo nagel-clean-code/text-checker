@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="api.yandex.YandexSpellerClientTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-04-18T19:57:18" hostname="DESKTOP-5PGCBTA" time="2.498">
+  <properties/>
+  <testcase name="РўРµСЃС‚ СЃ РїРѕР»РЅРѕСЃС‚СЊСЋ РЅРµРІРµСЂРЅС‹Рј С‚РµРєСЃС‚РѕРј" classname="api.yandex.YandexSpellerClientTest" time="1.716"/>
+  <testcase name="РўРµСЃС‚ СЃ РѕРґРЅРѕР№ РѕС€РёР±РєРѕР№" classname="api.yandex.YandexSpellerClientTest" time="0.353"/>
+  <testcase name="РўРµСЃС‚ Р±РµР· РѕС€РёР±РѕРє" classname="api.yandex.YandexSpellerClientTest" time="0.398"/>
+  <system-out><![CDATA[2021-04-19 02:57:16,175 Test worker DEBUG Apache Log4j Core 2.14.1 initializing configuration XmlConfiguration[location=C:\Users\dazen\OneDrive\Desktop\Development\Work\TextChecker\build\resources\test\log4j2.xml]
+2021-04-19 02:57:16,200 Test worker DEBUG Installed 1 script engine
+2021-04-19 02:57:17,110 Test worker DEBUG Oracle Nashorn version: 14.0.2, language: ECMAScript, threading: Not Thread Safe, compile: true, names: [nashorn, Nashorn, js, JS, JavaScript, javascript, ECMAScript, ecmascript], factory class: jdk.nashorn.api.scripting.NashornScriptEngineFactory
+2021-04-19 02:57:17,114 Test worker DEBUG PluginManager 'Core' found 122 plugins
+2021-04-19 02:57:17,117 Test worker DEBUG PluginManager 'Level' found 0 plugins
+2021-04-19 02:57:17,135 Test worker DEBUG PluginManager 'Lookup' found 16 plugins
+2021-04-19 02:57:17,144 Test worker DEBUG Building Plugin[name=filter, class=org.apache.logging.log4j.core.filter.ThresholdFilter].
+2021-04-19 02:57:17,187 Test worker DEBUG PluginManager 'TypeConverter' found 26 plugins
+2021-04-19 02:57:17,212 Test worker DEBUG createFilter(level="TRACE", onMatch="null", onMismatch="null")
+2021-04-19 02:57:17,214 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-04-19 02:57:17,256 Test worker DEBUG PatternLayout$Builder(pattern="%m %n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-04-19 02:57:17,261 Test worker DEBUG PluginManager 'Converter' found 44 plugins
+2021-04-19 02:57:17,270 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+2021-04-19 02:57:17,325 Test worker DEBUG ConsoleAppender$Builder(target="null", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%m %n), name="STDOUT", Configuration(XMLConfigTest), Filter=null, ={})
+2021-04-19 02:57:17,380 Test worker DEBUG Starting OutputStreamManager SYSTEM_OUT.false.false
+2021-04-19 02:57:17,383 Test worker DEBUG Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+2021-04-19 02:57:17,395 Test worker DEBUG PatternLayout$Builder(pattern="%d %p %c{1.} [%t] %m%n", PatternSelector=null, Configuration(XMLConfigTest), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+2021-04-19 02:57:17,521 Test worker DEBUG Building Plugin[name=TimeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy].
+2021-04-19 02:57:17,546 Test worker DEBUG TimeBasedTriggeringPolicy$Builder(interval="1", modulate="null", maxRandomDelay="null")
+2021-04-19 02:57:17,553 Test worker DEBUG Building Plugin[name=SizeBasedTriggeringPolicy, class=org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy].
+2021-04-19 02:57:17,563 Test worker DEBUG createPolicy(size="250 MB")
+2021-04-19 02:57:17,581 Test worker DEBUG Building Plugin[name=Policies, class=org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy].
+2021-04-19 02:57:17,591 Test worker DEBUG createPolicy(={TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=262144000)})
+2021-04-19 02:57:17,596 Test worker DEBUG Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.RollingFileAppender].
+2021-04-19 02:57:17,644 Test worker DEBUG RollingFileAppender$Builder(fileName="logs/log4j2.log", filePattern="logs/${date:yyyy-MM}/app-%d{MM-dd-yyyy}-%i.log.gz", append="null", locking="null", Policies(CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=262144000)])), Strategy=null, advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d %p %c{1.} [%t] %m%n), name="rollingFile", Configuration(XMLConfigTest), Filter=null, ={})
+2021-04-19 02:57:17,701 Test worker DEBUG Returning file creation time for C:\Users\dazen\OneDrive\Desktop\Development\Work\TextChecker\logs\log4j2.log
+2021-04-19 02:57:17,705 Test worker DEBUG Starting RollingFileManager logs/log4j2.log
+2021-04-19 02:57:17,719 Test worker DEBUG PluginManager 'FileConverter' found 2 plugins
+2021-04-19 02:57:17,743 Test worker DEBUG Setting prev file time to 2021-04-19T02:35:02.328+0700
+2021-04-19 02:57:17,746 Test worker DEBUG Initializing triggering policy CompositeTriggeringPolicy(policies=[TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false), SizeBasedTriggeringPolicy(size=262144000)])
+2021-04-19 02:57:17,751 Test worker DEBUG Initializing triggering policy TimeBasedTriggeringPolicy(nextRolloverMillis=0, interval=1, modulate=false)
+2021-04-19 02:57:17,758 Test worker DEBUG Initializing triggering policy SizeBasedTriggeringPolicy(size=262144000)
+2021-04-19 02:57:17,762 Test worker DEBUG Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+2021-04-19 02:57:17,766 Test worker DEBUG createAppenders(={STDOUT, rollingFile})
+2021-04-19 02:57:17,773 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-04-19 02:57:17,786 Test worker DEBUG createAppenderRef(ref="STDOUT", level="null", Filter=null)
+2021-04-19 02:57:17,792 Test worker DEBUG Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+2021-04-19 02:57:17,796 Test worker DEBUG createAppenderRef(ref="rollingFile", level="null", Filter=null)
+2021-04-19 02:57:17,800 Test worker DEBUG Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+2021-04-19 02:57:17,806 Test worker DEBUG createLogger(additivity="null", level="INFO", includeLocation="null", ={STDOUT, rollingFile}, ={}, Configuration(XMLConfigTest), Filter=null)
+2021-04-19 02:57:17,823 Test worker DEBUG Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+2021-04-19 02:57:17,830 Test worker DEBUG createLoggers(={root})
+2021-04-19 02:57:17,833 Test worker DEBUG Configuration XmlConfiguration[location=C:\Users\dazen\OneDrive\Desktop\Development\Work\TextChecker\build\resources\test\log4j2.xml] initialized
+2021-04-19 02:57:17,835 Test worker DEBUG Starting configuration XmlConfiguration[location=C:\Users\dazen\OneDrive\Desktop\Development\Work\TextChecker\build\resources\test\log4j2.xml]
+2021-04-19 02:57:17,840 Test worker DEBUG Started configuration XmlConfiguration[location=C:\Users\dazen\OneDrive\Desktop\Development\Work\TextChecker\build\resources\test\log4j2.xml] OK.
+2021-04-19 02:57:17,845 Test worker DEBUG Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+2021-04-19 02:57:17,849 Test worker DEBUG OutputStream closed
+2021-04-19 02:57:17,853 Test worker DEBUG Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+2021-04-19 02:57:17,875 Test worker DEBUG Appender DefaultConsole-1 stopped with status true
+2021-04-19 02:57:17,879 Test worker DEBUG Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@6c0e284e OK
+2021-04-19 02:57:18,212 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=4e0e2f2a
+2021-04-19 02:57:18,226 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=4e0e2f2a,component=StatusLogger
+2021-04-19 02:57:18,233 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=4e0e2f2a,component=ContextSelector
+2021-04-19 02:57:18,243 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=4e0e2f2a,component=Loggers,name=
+2021-04-19 02:57:18,254 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=4e0e2f2a,component=Appenders,name=rollingFile
+2021-04-19 02:57:18,257 Test worker DEBUG Registering MBean org.apache.logging.log4j2:type=4e0e2f2a,component=Appenders,name=STDOUT
+2021-04-19 02:57:18,265 Test worker DEBUG org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+2021-04-19 02:57:18,272 Test worker DEBUG Reconfiguration complete for context[name=4e0e2f2a] at URI C:\Users\dazen\OneDrive\Desktop\Development\Work\TextChecker\build\resources\test\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@6f935a9a) with optional ClassLoader: null
+2021-04-19 02:57:18,275 Test worker DEBUG Shutdown hook enabled. Registering a new one.
+2021-04-19 02:57:18,282 Test worker DEBUG LoggerContext[name=4e0e2f2a, org.apache.logging.log4j.core.LoggerContext@6f935a9a] started OK.
+]]></system-out>
+  <system-err><![CDATA[Warning: Nashorn engine is planned to be removed from a future JDK release
+]]></system-err>
+</testsuite>

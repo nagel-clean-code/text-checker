@@ -1,0 +1,16 @@
+api/SpellerClient.java
+ api.SpellerClient
+api/yandex/entity/CodeErrors.java
+ api.yandex.entity.CodeErrors
+api/yandex/entity/SettingsSpeller.java
+ api.yandex.entity.SettingsSpeller
+model/Response.java
+ model.Response
+ model.Response$Word
+model/YandexResponse.java
+ model.YandexResponse
+api/yandex/YandexSpellerClient.java
+ api.yandex.YandexSpellerClient
+ api.yandex.YandexSpellerClient$1
+api/yandex/entity/EntityYandexSpeller.java
+ api.yandex.entity.EntityYandexSpeller

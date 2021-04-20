@@ -1,0 +1,2 @@
+api/yandex/YandexSpellerClientTest.java
+ api.yandex.YandexSpellerClientTest
