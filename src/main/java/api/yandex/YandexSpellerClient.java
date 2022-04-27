@@ -24,7 +24,7 @@ import java.util.Properties;
  * @see YandexResponse
  */
 public class YandexSpellerClient implements SpellerClient<YandexResponse> {
-    private EntityYandexSpeller data = new EntityYandexSpeller();
+    private final EntityYandexSpeller data = new EntityYandexSpeller();
 
     public YandexSpellerClient(){ }
 

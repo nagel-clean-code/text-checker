@@ -15,7 +15,7 @@ public interface Response {
         public int pos; //Позиция слова с ошибкой
         public int row; //Номер строки (отсчёт с 0)
         public int col; //Номер столбца (отсчёт с 0)
-        public int len; //Длинная слова с ошибкой
+        public int len; //Длинна слова с ошибкой
         public String word;         //исходное слово
         public ArrayList<String> s; //Возможные вариации исправления
     }
